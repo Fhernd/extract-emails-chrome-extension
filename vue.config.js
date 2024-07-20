@@ -1,18 +1,10 @@
 module.exports = {
   pages: {
     popup: {
+      entry: 'src/popup.js',
       template: 'public/popup.html',
-      entry: './src/popup.js',
-      title: 'Emails Extractor'
+      filename: 'popup.html'
     }
   },
-  pluginOptions: {
-    browserExtension: {
-      componentOptions: {
-        background: {
-          entry: 'public/background.js'
-        }
-      }
-    }
-  }
-}
+  filenameHashing: false
+};
