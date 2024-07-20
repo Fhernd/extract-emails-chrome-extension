@@ -1,5 +1,5 @@
 <template>
-  <div id="principal">
+  <div id="app">
     <h1>Emails Extractor</h1>
   </div>
 </template>
@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-#principal {
+#app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
