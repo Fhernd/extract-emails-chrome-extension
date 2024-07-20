@@ -1,3 +1,3 @@
-chrome.browserAction.onClicked.addListener(function () {
+chrome.action.onClicked.addListener((tab) => {
     console.log('Extension icon clicked!');
 });
